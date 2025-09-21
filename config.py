@@ -12,8 +12,7 @@ FETCH_INTERVAL = 2 * 60 * 60
 # 缓存 TTL（秒）
 CACHE_TTL = 60
 
-# RSS 列表与对应名称（长度相同）
-# 示例，请替换为你自己的订阅
+# RSS 列表与对应名称
 rss_links = [
     "https://leonxie.cn/rss.xml",
     "https://qwq.blue/rss.xml",
@@ -32,7 +31,3 @@ link_names = [
 # Web 服务绑定
 HOST = "0.0.0.0"
 PORT = 8000
-
-# run.py 使用的 pid / log 路径
-PID_FILE = "server.pid"
-LOG_FILE = "server.log"

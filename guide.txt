@@ -1,7 +1,0 @@
-运行方式：
-1、创建虚拟环境（可选）
-python -m venv ~/env
-source ~/env/bin/activate
-2、pip install fastapi uvicorn[standard] feedparser cachetools
-3、修改config.py
-4、python server.py开始运行
